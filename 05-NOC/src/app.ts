@@ -1,4 +1,5 @@
 import { Server } from './presentation/server';
+import 'dotenv/config'
 
 (async() => {
     main();
@@ -6,4 +7,5 @@ import { Server } from './presentation/server';
 
 function main () {
     Server.start();
+    //console.log( process.env );
 }
